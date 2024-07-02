@@ -74,6 +74,8 @@ document.addEventListener("keypress", (event) => {
     eq();
   }
 });
+
+console.log("here");
 //-----------------------------------------------------------------
 clear.addEventListener("click", () => {
   print.setAttribute("placeholder", "0");
