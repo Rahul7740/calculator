@@ -52,9 +52,6 @@ for (let o of operators) {
       print.value += o.innerHTML;
     }
   });
-  // document.addEventListener("click",(event)=>{
-
-  // })
 }
 //-----------------------------------------------------------------
 del.addEventListener("click", () => {
