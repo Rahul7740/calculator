@@ -1,0 +1,79 @@
+ button {
+    outline: none;
+    border: none;
+    background: transparent;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  input {
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+
+.calculator{
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px #0000007e;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+td{
+    border: 1px solid #8080808a;
+    width: 30px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 14px 20px ;
+    font-size: 20px;
+    box-shadow: 0.1px 0.1px 10px #0000002f;
+    cursor: pointer;
+}
+.equal{
+    background-color: #0863b8f3;
+    color: white;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex123{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.image1{
+    width: 30px;
+    height: 30px;
+}
+.image2{
+    width: 20px;
+    height: 20px;
+}
+input{
+  margin-bottom: 10px;
+}
+.calculations{
+    text-align: end;
+    margin-top: 30px;
+    font-size: 40px;
+    max-width: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
