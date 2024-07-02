@@ -88,3 +88,5 @@ function eq() {
   let abc = eval(print.value);
   print.value = abc;
 }
+
+console.log("hello");
